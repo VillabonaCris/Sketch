@@ -1,0 +1,45 @@
+h1{
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.sketch-container{
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  width: 50%;
+  height: 70vh;
+  border: 1px solid blue;
+}
+
+.sketch-container div:hover{
+  background-color: gray;
+}
+
+#color{
+  width: 130px;
+}
+
+.container-buttons{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-buttons button{
+  background-color: rgb(0, 117, 255);
+  color: white;
+  font-size: 17px;
+  height: 25px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+.container-buttons button:hover{
+  background-color: rgb(0, 50, 255);
+}
